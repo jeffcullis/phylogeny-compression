@@ -1,7 +1,7 @@
 #ifndef _tokens_hpp
 #define _tokens_hpp
 
-#include <iostream>
+#include <climits>
 
 const unsigned int LB = UINT_MAX-1;
 const unsigned int RB = UINT_MAX-2;
