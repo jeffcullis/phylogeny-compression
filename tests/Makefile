@@ -5,7 +5,7 @@ CPP = g++
 
 all: footest tokentest
 
-footest: footest.cpp ../foo.cpp
+footest: footest.cpp foo.cpp
 	$(CPP) $(ARGS) $(GTEST_ARGS) footest.cpp $(GTEST_LIBS) -o footest
 
 tokentest: tokentest.cpp ../tokens.hpp
